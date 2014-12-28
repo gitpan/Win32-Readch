@@ -1,5 +1,5 @@
 package Win32::Readch;
-
+$Win32::Readch::VERSION = '0.05';
 use strict;
 use warnings;
 
@@ -10,7 +10,6 @@ require Exporter;
 our @ISA       = qw(Exporter);
 our @EXPORT    = qw();
 our @EXPORT_OK = qw(readch_block readch_noblock getstr_noecho);
-our $VERSION   = '0.03';
 
 my $CONS_INP = Win32::Console->new(STD_INPUT_HANDLE)
   or die "Error in Win32::Readch - Can't Win32::Console->new(STD_INPUT_HANDLE)";

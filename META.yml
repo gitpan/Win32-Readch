@@ -22,4 +22,4 @@ requires:
 resources:
   homepage: https://github.com/klaus03/Win32-Readch
   repository: https://github.com/klaus03/Win32-Readch.git
-version: '0.04'
+version: '0.05'
